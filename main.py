@@ -32,3 +32,22 @@ print(x[4: ])
 # print the first 5 charcters
 print(x[0:5])
 print(x[ :5])
+
+#print the last 5 characters
+print(x[3:])
+
+# print every alternate character
+print(x[ : : 2])
+
+# print the string in reverse
+print(x[ : : -1])
+
+# _____________________________________________________________________________________________
+
+# concatination (+)
+language="Python " + "language"
+print(language)
+
+#repitition (*)
+language="Python " * 10
+print(language)
